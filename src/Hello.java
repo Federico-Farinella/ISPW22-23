@@ -1,0 +1,14 @@
+import java.util.logging.Logger;
+import java.util.logging.Level;
+
+public class Hello {
+	public static void main(String[] args) {
+		//System.out.println("Hello, Federico");
+		Logger log = new Logger();
+		log.log(Level.INFO,"Hello, Federico");
+	}
+
+}
+
+
+
