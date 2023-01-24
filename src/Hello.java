@@ -6,6 +6,7 @@ public class Hello {
 		//System.out.println("Hello, Federico");
 		Logger log = new Logger();
 		log.log(Level.INFO,"Hello, Federico");
+		System.out.println("CIAO");
 	}
 
 }
